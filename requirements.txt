@@ -1,18 +1,12 @@
-click
+click==7.1.2
 Flask
 Flask-Cors
 gunicorn
-itsdangerous
-Jinja2
-joblib
-MarkupSafe
+itsdangerous==1.1.0
+MarkupSafe==1.1.1
 numpy
 pandas
-pickle-mixin
-python-dateutil
-pytz
-scikit-learn == 1.3.0
-scipy
-six
-threadpoolctl
-Werkzeug
+pickle-mixin==1.0.2
+python-dateutil==2.8.1
+pytz==2020.1
+scikit-learn==1.3.0
