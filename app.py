@@ -6,8 +6,8 @@ import numpy as np
 
 app=Flask(__name__)
 cors=CORS(app)
-model=pickle.load(open('ML_proj\LinearRegressionModel.pkl','rb'))
-car=pd.read_csv('ML_proj\Cleaned_Car_data.csv')
+model=pickle.load(open('LinearRegressionModel.pkl','rb'))
+car=pd.read_csv('Cleaned_Car_data.csv')
 
 @app.route('/',methods=['GET','POST'])
 def index():
@@ -39,5 +39,5 @@ def predict():
 
 
 
-# if __name__=='__main__':
-#     app.run()
+if __name__=='__main__':
+    app.run()
